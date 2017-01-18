@@ -8,7 +8,7 @@ for i in range(0,10):
 def main():
     global numbers
     MAX = 1000000
-    count = MAX
+    count = MAX-1
     out = ""
     for i in xrange(9, -1, -1):
         print "init", out
